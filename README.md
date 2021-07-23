@@ -6,3 +6,8 @@ $ cd .devcontainer
 $ docker compose up -d
 $ docker compose exec app /bin/bash
 ```
+
+### Update dependencies
+```
+$ npx npm-check-updates
+```
